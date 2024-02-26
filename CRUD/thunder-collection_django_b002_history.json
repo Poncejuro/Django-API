@@ -1,0 +1,89 @@
+{
+    "client": "Thunder Client",
+    "collectionName": "django_b002_history",
+    "dateExported": "2024-02-03T02:31:05.932Z",
+    "version": "1.1",
+    "folders": [],
+    "requests": [
+        {
+            "_id": "6ba4523e-cfe5-443c-b753-77e12716565a",
+            "colId": "0a7bdcf6-36be-4bec-be66-6070faf61193",
+            "containerId": "",
+            "name": "GET list",
+            "url": "http://127.0.0.1:8000/api/currencies/history",
+            "method": "GET",
+            "sortNum": 10000,
+            "created": "2024-02-02T23:24:00.013Z",
+            "modified": "2024-02-02T23:25:24.079Z",
+            "headers": [],
+            "params": [],
+            "tests": []
+        },
+        {
+            "_id": "06fc0883-de18-4418-a0cd-eaff2c143995",
+            "colId": "0a7bdcf6-36be-4bec-be66-6070faf61193",
+            "containerId": "",
+            "name": "POST",
+            "url": "http://127.0.0.1:8000/api/currencies/history",
+            "method": "POST",
+            "sortNum": 20000,
+            "created": "2024-02-02T23:24:00.014Z",
+            "modified": "2024-02-03T01:00:34.806Z",
+            "headers": [],
+            "params": [],
+            "body": {
+                "type": "json",
+                "raw": "{\n  \"currency_id\":1,\n  \"date\": \"2014-02-03\",\n  \"price\": \"2150.00\"\n}",
+                "form": []
+            },
+            "tests": []
+        },
+        {
+            "_id": "869202de-37a5-4406-9e99-213dcd250fd2",
+            "colId": "0a7bdcf6-36be-4bec-be66-6070faf61193",
+            "containerId": "",
+            "name": "GET id",
+            "url": "http://127.0.0.1:8000/api/currencies/history/18",
+            "method": "GET",
+            "sortNum": 30000,
+            "created": "2024-02-02T23:24:00.015Z",
+            "modified": "2024-02-03T01:00:44.615Z",
+            "headers": [],
+            "params": [],
+            "tests": []
+        },
+        {
+            "_id": "9d7c62fc-ccf5-401e-9362-f2aab02afbc2",
+            "colId": "0a7bdcf6-36be-4bec-be66-6070faf61193",
+            "containerId": "",
+            "name": "PUT",
+            "url": "http://127.0.0.1:8000/api/currencies/history/18",
+            "method": "PUT",
+            "sortNum": 40000,
+            "created": "2024-02-02T23:24:00.016Z",
+            "modified": "2024-02-03T01:00:52.426Z",
+            "headers": [],
+            "params": [],
+            "body": {
+                "type": "json",
+                "raw": "{\n  \"currency_id\": 1,\n  \"date\": \"2030-02-03\",\n  \"price\": \"5000.00\"\n}",
+                "form": []
+            },
+            "tests": []
+        },
+        {
+            "_id": "5ea3229e-9494-4db5-b9e2-7edbfe2ca3fd",
+            "colId": "0a7bdcf6-36be-4bec-be66-6070faf61193",
+            "containerId": "",
+            "name": "DELETE",
+            "url": "http://127.0.0.1:8000/api/currencies/history/1",
+            "method": "DELETE",
+            "sortNum": 50000,
+            "created": "2024-02-02T23:24:00.017Z",
+            "modified": "2024-02-03T01:01:01.711Z",
+            "headers": [],
+            "params": [],
+            "tests": []
+        }
+    ]
+}

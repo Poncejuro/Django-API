@@ -1,0 +1,89 @@
+{
+    "client": "Thunder Client",
+    "collectionName": "django_b001",
+    "dateExported": "2024-02-03T02:30:52.155Z",
+    "version": "1.1",
+    "folders": [],
+    "requests": [
+        {
+            "_id": "34f41e13-7518-4ae7-9f35-27af8779185b",
+            "colId": "38a7c204-1b6e-4fbd-a403-29ee2d2c087b",
+            "containerId": "",
+            "name": "GET list",
+            "url": "http://127.0.0.1:8000/api/BlogSpot",
+            "method": "GET",
+            "sortNum": 20000,
+            "created": "2024-02-02T21:24:13.689Z",
+            "modified": "2024-02-02T21:46:33.308Z",
+            "headers": [],
+            "params": [],
+            "tests": []
+        },
+        {
+            "_id": "f4cecceb-9f5c-4745-8f25-6f5fd25c1e8a",
+            "colId": "38a7c204-1b6e-4fbd-a403-29ee2d2c087b",
+            "containerId": "",
+            "name": "POST new",
+            "url": "http://127.0.0.1:8000/api/BlogSpot/",
+            "method": "POST",
+            "sortNum": 30000,
+            "created": "2024-02-02T21:27:09.447Z",
+            "modified": "2024-02-02T21:48:20.289Z",
+            "headers": [],
+            "params": [],
+            "body": {
+                "type": "json",
+                "raw": "{\n  \"title\": \"Participa el Instituto Mexicano de Tecnología del Agua en Foro sobre Reforma Energéticahjjhk\",\n  \"link\":  \"https://www.gob.mx/imta/articulos/participa-el-instituto-mexicano-de-tecnologia-del-agua-en-foro-sobre-reforma-energetica\"\n  \n}",
+                "form": []
+            },
+            "tests": []
+        },
+        {
+            "_id": "e22e3313-7dfb-4be1-b56f-d651097a223e",
+            "colId": "38a7c204-1b6e-4fbd-a403-29ee2d2c087b",
+            "containerId": "",
+            "name": "GET id",
+            "url": "http://127.0.0.1:8000/api/BlogSpot/1",
+            "method": "GET",
+            "sortNum": 40000,
+            "created": "2024-02-02T21:46:53.491Z",
+            "modified": "2024-02-03T02:25:06.581Z",
+            "headers": [],
+            "params": [],
+            "tests": []
+        },
+        {
+            "_id": "e70e7c42-ada2-4544-8a01-298430897a49",
+            "colId": "38a7c204-1b6e-4fbd-a403-29ee2d2c087b",
+            "containerId": "",
+            "name": "PUT update",
+            "url": "http://127.0.0.1:8000/api/BlogSpot/8",
+            "method": "PUT",
+            "sortNum": 50000,
+            "created": "2024-02-02T21:53:46.778Z",
+            "modified": "2024-02-03T02:25:20.514Z",
+            "headers": [],
+            "params": [],
+            "body": {
+                "type": "json",
+                "raw": "{\n      \"title\": \"example of change\",\n      \"link\": \"example of change\"\n    }",
+                "form": []
+            },
+            "tests": []
+        },
+        {
+            "_id": "d5732d2a-a872-4eae-a21a-8daf256582db",
+            "colId": "38a7c204-1b6e-4fbd-a403-29ee2d2c087b",
+            "containerId": "",
+            "name": "DELETE delete",
+            "url": "http://127.0.0.1:8000/api/BlogSpot/11",
+            "method": "DELETE",
+            "sortNum": 70000,
+            "created": "2024-02-02T22:04:06.427Z",
+            "modified": "2024-02-03T00:51:28.390Z",
+            "headers": [],
+            "params": [],
+            "tests": []
+        }
+    ]
+}

@@ -1,0 +1,89 @@
+{
+    "client": "Thunder Client",
+    "collectionName": "django_b002",
+    "dateExported": "2024-02-03T02:31:02.689Z",
+    "version": "1.1",
+    "folders": [],
+    "requests": [
+        {
+            "_id": "d298ba4d-13ff-415a-b2fc-4a232cdf3fbb",
+            "colId": "3e62b2f1-0e90-4557-a64c-f706668371a2",
+            "containerId": "",
+            "name": "GET list",
+            "url": "http://127.0.0.1:8000/api/currencies",
+            "method": "GET",
+            "sortNum": 10000,
+            "created": "2024-02-02T23:04:17.530Z",
+            "modified": "2024-02-02T23:04:59.407Z",
+            "headers": [],
+            "params": [],
+            "tests": []
+        },
+        {
+            "_id": "d8d1c059-f529-4bde-ab4f-ac31999782c1",
+            "colId": "3e62b2f1-0e90-4557-a64c-f706668371a2",
+            "containerId": "",
+            "name": "post",
+            "url": "http://127.0.0.1:8000/api/currencies/",
+            "method": "POST",
+            "sortNum": 20000,
+            "created": "2024-02-02T23:11:40.267Z",
+            "modified": "2024-02-03T02:26:01.276Z",
+            "headers": [],
+            "params": [],
+            "body": {
+                "type": "json",
+                "raw": "{\n  \"name\": \"Insertion example\",\n  \"image\": \"Insertion example\"\n}",
+                "form": []
+            },
+            "tests": []
+        },
+        {
+            "_id": "b571bb8f-73d8-4e64-8f36-b228007271de",
+            "colId": "3e62b2f1-0e90-4557-a64c-f706668371a2",
+            "containerId": "",
+            "name": "GET id",
+            "url": "http://127.0.0.1:8000/api/currencies/6",
+            "method": "GET",
+            "sortNum": 30000,
+            "created": "2024-02-02T23:13:20.021Z",
+            "modified": "2024-02-03T00:59:03.107Z",
+            "headers": [],
+            "params": [],
+            "tests": []
+        },
+        {
+            "_id": "f5bd5cab-9efd-42f5-bf3f-620af9752b0a",
+            "colId": "3e62b2f1-0e90-4557-a64c-f706668371a2",
+            "containerId": "",
+            "name": "PUT",
+            "url": "http://127.0.0.1:8000/api/currencies/6",
+            "method": "PUT",
+            "sortNum": 40000,
+            "created": "2024-02-02T23:13:51.370Z",
+            "modified": "2024-02-03T00:59:07.338Z",
+            "headers": [],
+            "params": [],
+            "body": {
+                "type": "json",
+                "raw": "{\n  \"name\": \"ejemplodsfg CHANGE\",\n  \"image\": \"ejemplodfg CHANGE\"\n}",
+                "form": []
+            },
+            "tests": []
+        },
+        {
+            "_id": "03d1f491-8d71-48e2-8d3f-0309b1c4b218",
+            "colId": "3e62b2f1-0e90-4557-a64c-f706668371a2",
+            "containerId": "",
+            "name": "DELETE",
+            "url": "http://127.0.0.1:8000/api/currencies/6",
+            "method": "DELETE",
+            "sortNum": 50000,
+            "created": "2024-02-02T23:15:59.893Z",
+            "modified": "2024-02-03T00:59:10.629Z",
+            "headers": [],
+            "params": [],
+            "tests": []
+        }
+    ]
+}

@@ -1,0 +1,23 @@
+{
+    "client": "Thunder Client",
+    "collectionName": "django_b002_all_list",
+    "dateExported": "2024-02-03T02:31:08.706Z",
+    "version": "1.1",
+    "folders": [],
+    "requests": [
+        {
+            "_id": "3f372857-bdbb-406d-b161-b9848fba3ac1",
+            "colId": "7710ce9d-3cca-4b1d-b690-46667320f572",
+            "containerId": "",
+            "name": "GET list Copy",
+            "url": "http://127.0.0.1:8000/api/crypto/currency/histories/",
+            "method": "GET",
+            "sortNum": 10000,
+            "created": "2024-02-03T00:24:22.778Z",
+            "modified": "2024-02-03T00:24:22.778Z",
+            "headers": [],
+            "params": [],
+            "tests": []
+        }
+    ]
+}
